@@ -1,0 +1,40 @@
+The 1-Month Python Coding Challenge
+Week 1: Python Fundamentals
+
+Day 1: Variables and Data Types. Write a program that declares variables of different data types (integer, float, string, boolean, list, tuple, dictionary) and prints their values and types.
+Day 2: Operators. Create a program that takes two numbers as input and performs arithmetic, comparison, and logical operations on them. Print the results.
+Day 3: Control Flow (if/else). Write a program that checks if a number is positive, negative, or zero and prints an appropriate message.
+Day 4: Loops (for loop). Write a program that prints the first n Fibonacci numbers, where n is taken as input.
+Day 5: Loops (while loop). Create a simple number guessing game where the program generates a random number, and the user has to guess it within a certain number of attempts.
+Day 6: Functions. Write a function that calculates the factorial of a number. Use this function to print the factorial of numbers from 1 to 5.
+Day 7: Lists. Write a program that takes a list of numbers as input and finds the largest and smallest number in the list.
+
+Week 2: Data Structures and Algorithms
+
+Day 8: Strings. Write a program that checks if a given string is a palindrome (reads the same forwards and backward).
+Day 9: Dictionaries. Create a program that counts the frequency of each word in a given sentence.
+Day 10: Sets. Write a program that finds the common elements between two sets.
+Day 11: Sorting. Implement the bubble sort algorithm to sort a list of numbers in ascending order.
+Day 12: Searching. Implement the binary search algorithm to find a specific element in a sorted list.
+Day 13: Stacks. Implement a stack data structure with push and pop operations.
+Day 14: Queues. Implement a queue data structure with enqueue and dequeue operations.
+
+Week 3: Object-Oriented Programming (OOP)
+
+Day 15: Classes and Objects. Create a class called Dog with attributes like name, breed, and age. Create multiple Dog objects and print their attributes.
+Day 16: Inheritance. Create a class called Animal with a method speak(). Create child classes like Dog and Cat that inherit from Animal and override the speak() method.
+Day 17: Polymorphism. Create a function that can take objects of different classes (e.g., Dog, Cat, Bird) as input and call their respective speak() methods.
+Day 18: Encapsulation. Create a class with private attributes and use getter and setter methods to access and modify them.
+Day 19: Abstraction. Create an abstract class with abstract methods. Implement concrete classes that inherit from the abstract class and implement the abstract methods.
+Day 20: File I/O. Write a program that reads data from a text file, processes it, and writes the results to another text file.
+Day 21: Exception Handling. Write a program that handles potential exceptions (e.g., ZeroDivisionError, FileNotFoundError) using try-except blocks.
+
+Week 4: Practical Applications and Libraries
+
+Day 22: Regular Expressions. Write a program that uses regular expressions to extract email addresses from a text file.
+Day 23: Date and Time. Write a program that calculates the difference between two dates.
+Day 24: requests Library. Write a program that fetches data from a website using the requests library and prints the HTML content.
+Day 25: JSON. Write a program that reads data from a JSON file and prints specific values.
+Day 26: CSV. Write a program that reads data from a CSV file and performs some analysis (e.g., calculates the average of a column).
+Day 27: Simple Web Server (using Flask or similar). Create a very basic web server that displays "Hello, World!" on a webpage.
+Day 28: Choose Your Own Project. Spend the last day working on a small Python project of your choice, applying the concepts you've learned throughout the month.
