@@ -1,0 +1,34 @@
+# Define tax rates and thresholds
+self_employment_tax_rate = 0.153  # 15.3%
+income_tax_rate = 0.244  # 24% federal + 4.4% Colorado state
+
+# Function to calculate tax liability for Sole Proprietor
+def calculate_sole_proprietor_taxes(income):
+    self_employment_tax = income * self_employment_tax_rate
+    income_tax = income * income_tax_rate
+    total_tax = self_employment_tax + income_tax
+    return total_tax
+
+# Function to calculate tax liability for LLC with S-Corp election
+def calculate_s_corp_taxes(income, salary_percentage=0.5):
+    salary = income * salary_percentage  # Assume 50% of income as salary
+    distributions = income - salary
+    
+    self_employment_tax = salary * self_employment_tax_rate  # Only salary is subject to self-employment tax
+    income_tax = income * income_tax_rate  # Full income still taxed for income tax
+    
+    total_tax = self_employment_tax + income_tax
+    return total_tax
+
+# Define different income levels for the side hustle
+income_levels = [5000, 10000, 20000, 30000, 50000]
+
+# Calculate tax liabilities and savings for each income level
+tax_savings = []
+for income in income_levels:
+    sole_prop_taxes = calculate_sole_proprietor_taxes(income)
+    s_corp_taxes = calculate_s_corp_taxes(income)
+    savings = sole_prop_taxes - s_corp_taxes
+    tax_savings.append((income, sole_prop_taxes, s_corp_taxes, savings))
+
+tax_savings
